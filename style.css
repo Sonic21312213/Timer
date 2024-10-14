@@ -1,0 +1,45 @@
+body {
+    background: url(./bill.gif); 
+    display: flex;              
+    background-size: cover;      
+    justify-content: center;    
+    align-items: center;        
+    height: 100vh;              
+    margin: 0;          
+
+}
+
+.container {
+    text-align: center;
+    padding: 5px; 
+    backdrop-filter: blur(10px); 
+    background: rgba(0, 0, 0, 0.3); 
+    border-radius: 10px; 
+    border: none;
+}
+
+
+button {
+    color: black;
+    border-radius: 10px;
+    padding: 10px 20px;        
+    margin: 5px;
+    cursor: pointer;   
+    border: none;         
+}
+
+h1, p, label {
+    color: white;               
+}
+
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.cont_but {
+    padding-top:10px ;
+}
